@@ -1752,6 +1752,7 @@ dependencies = [
 name = "rhiaqey-producer-owm"
 version = "0.1.0"
 dependencies = [
+ "log",
  "rhiaqey-producers",
  "rhiaqey-sdk-rs",
  "serde",

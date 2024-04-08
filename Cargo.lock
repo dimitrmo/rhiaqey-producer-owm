@@ -1687,7 +1687,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.0"
-source = "git+https://github.com/rhiaqey/common.git#2128aa135c8cd429dcf8d323cdb7348ac60a06b9"
+source = "git+https://github.com/rhiaqey/common.git#dad4e3457db3857d24bf46ff61d0e66914696c8d"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1714,8 +1714,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-ecb"
-version = "0.1.39"
-source = "git+https://github.com/rhiaqey/producers.git#4b3155fe8cded791c0a7ffc8b161ed6fe0fbd3d5"
+version = "0.1.40"
+source = "git+https://github.com/rhiaqey/producers.git#217cdd8d749242dc7c6aafc109c738cb283076b8"
 dependencies = [
  "chrono",
  "env_logger",
@@ -1733,8 +1733,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-iss"
-version = "0.1.39"
-source = "git+https://github.com/rhiaqey/producers.git#4b3155fe8cded791c0a7ffc8b161ed6fe0fbd3d5"
+version = "0.1.40"
+source = "git+https://github.com/rhiaqey/producers.git#217cdd8d749242dc7c6aafc109c738cb283076b8"
 dependencies = [
  "env_logger",
  "futures",
@@ -1762,8 +1762,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-pinger"
-version = "0.1.39"
-source = "git+https://github.com/rhiaqey/producers.git#4b3155fe8cded791c0a7ffc8b161ed6fe0fbd3d5"
+version = "0.1.40"
+source = "git+https://github.com/rhiaqey/producers.git#217cdd8d749242dc7c6aafc109c738cb283076b8"
 dependencies = [
  "env_logger",
  "log",
@@ -1776,8 +1776,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-rss"
-version = "0.1.39"
-source = "git+https://github.com/rhiaqey/producers.git#4b3155fe8cded791c0a7ffc8b161ed6fe0fbd3d5"
+version = "0.1.40"
+source = "git+https://github.com/rhiaqey/producers.git#217cdd8d749242dc7c6aafc109c738cb283076b8"
 dependencies = [
  "chrono",
  "env_logger",
@@ -1795,8 +1795,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-ticker"
-version = "0.1.39"
-source = "git+https://github.com/rhiaqey/producers.git#4b3155fe8cded791c0a7ffc8b161ed6fe0fbd3d5"
+version = "0.1.40"
+source = "git+https://github.com/rhiaqey/producers.git#217cdd8d749242dc7c6aafc109c738cb283076b8"
 dependencies = [
  "env_logger",
  "log",
@@ -1809,8 +1809,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-yahoo"
-version = "0.1.39"
-source = "git+https://github.com/rhiaqey/producers.git#4b3155fe8cded791c0a7ffc8b161ed6fe0fbd3d5"
+version = "0.1.40"
+source = "git+https://github.com/rhiaqey/producers.git#217cdd8d749242dc7c6aafc109c738cb283076b8"
 dependencies = [
  "base64",
  "env_logger",
@@ -1830,8 +1830,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.39"
-source = "git+https://github.com/rhiaqey/producers.git#4b3155fe8cded791c0a7ffc8b161ed6fe0fbd3d5"
+version = "0.1.40"
+source = "git+https://github.com/rhiaqey/producers.git#217cdd8d749242dc7c6aafc109c738cb283076b8"
 dependencies = [
  "axum",
  "env_logger",

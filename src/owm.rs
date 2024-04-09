@@ -359,8 +359,6 @@ impl Producer<OWMSettings> for OWM {
                     .interval_in_millis
                     .unwrap_or(default_interval().unwrap());
 
-                trace!("settings dump {:?}", settings);
-
                 if settings.api_key.is_empty() {
                     warn!("APIKey was not found");
                     interval = 5000;

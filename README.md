@@ -12,6 +12,12 @@ https://openweathermap.org/api/one-call-3
   "Timeout": 5000,
   "APIKey": "some-api-key",
   "Latitude": 36.141563,
-  "Longitude": -5.346491
+  "Longitude": -5.346491,
+  "Exclude": [
+    "minutely",
+    "hourly",
+    "daily",
+    "alerts"
+  ]
 }
 ```

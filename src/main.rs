@@ -1,6 +1,4 @@
-use crate::owm::{OWMSettings, OWM};
-
-pub mod owm;
+use rhiaqey_producer_owm::owm::{OWMSettings, OWM};
 
 #[tokio::main]
 async fn main() {

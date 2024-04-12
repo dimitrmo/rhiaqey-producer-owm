@@ -118,9 +118,9 @@ checksum = "f538837af36e6f6a9be0faa67f9a314f8119e4e4b5867c6ab40ed60360142519"
 
 [[package]]
 name = "async-trait"
-version = "0.1.79"
+version = "0.1.80"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a507401cad91ec6a857ed5513a2073c82a9b9048762b885bb98655b306964681"
+checksum = "c6fa2087f2753a7da8cc1c0dbfcf89579dd57458e36769de5ac750b4671737ca"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1419,8 +1419,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.45"
-source = "git+https://github.com/rhiaqey/producers.git#cd9977c1ff550afc5bb61c581668e887cc80852a"
+version = "0.1.46"
+source = "git+https://github.com/rhiaqey/producers.git#bc4b0e38edc63aa2bfafb60f56a4b1185f556243"
 dependencies = [
  "anyhow",
  "axum",

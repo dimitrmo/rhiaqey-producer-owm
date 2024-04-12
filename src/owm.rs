@@ -318,12 +318,15 @@ impl OWM {
         let json = serde_json::to_value(payload.clone())?;
 
         Ok(ProducerMessage {
+            size: None,
             key: String::from("owm/onecall"),
+            tag,
             value: MessageValue::Json(json),
             category: Some(String::from("weather")),
-            size: None,
             timestamp: Some(timestamp * 1000),
-            tag,
+            user_ids: None,
+            client_ids: None,
+            group_ids: None,
         })
     }
 }

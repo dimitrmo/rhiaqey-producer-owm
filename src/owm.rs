@@ -326,7 +326,6 @@ impl OWM {
             timestamp: Some(timestamp * 1000),
             user_ids: None,
             client_ids: None,
-            group_ids: None,
         })
     }
 }

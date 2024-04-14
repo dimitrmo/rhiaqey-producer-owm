@@ -1380,7 +1380,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.0"
-source = "git+https://github.com/rhiaqey/common.git#8d84e924ef40b3a0ecf2541a5728c997111e47f6"
+source = "git+https://github.com/rhiaqey/common.git#5224ca3a5acdb53128ac50563b9b9303ed6a9601"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1419,8 +1419,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.49"
-source = "git+https://github.com/rhiaqey/producers.git#cb1d9fce308dcb9f3bd09f4126c57a0aba4ba262"
+version = "0.1.50"
+source = "git+https://github.com/rhiaqey/producers.git#d86b7cc554280daf92a723933e535ef4021ee69d"
 dependencies = [
  "anyhow",
  "axum",

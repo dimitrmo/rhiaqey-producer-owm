@@ -705,9 +705,9 @@ checksum = "9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4"
 
 [[package]]
 name = "hyper"
-version = "1.2.0"
+version = "1.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "186548d73ac615b32a73aafe38fb4f56c0d340e110e5a200bcadbaf2e199263a"
+checksum = "fe575dd17d0862a9a33781c8c4696a55c320909004a67a00fb286ba8b1bc496d"
 dependencies = [
  "bytes",
  "futures-channel",
@@ -1419,8 +1419,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.51"
-source = "git+https://github.com/rhiaqey/producers.git#54c4c90c2791528682c19b3566fcd59faca4d88c"
+version = "0.1.53"
+source = "git+https://github.com/rhiaqey/producers.git#88337f319d4e7573d3917ae2b61b92c57795f8fa"
 dependencies = [
  "anyhow",
  "axum",

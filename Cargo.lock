@@ -753,7 +753,7 @@ dependencies = [
  "http-body",
  "hyper",
  "pin-project-lite",
- "socket2 0.5.6",
+ "socket2",
  "tokio",
  "tower",
  "tower-service",
@@ -1291,7 +1291,7 @@ dependencies = [
  "rand",
  "ryu",
  "sha1_smol",
- "socket2 0.5.6",
+ "socket2",
  "tokio",
  "tokio-util",
  "url",
@@ -1380,7 +1380,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.0"
-source = "git+https://github.com/rhiaqey/common.git#2558cd0fb3a55c2d6a10079f956b671944d779ee"
+source = "git+https://github.com/rhiaqey/common.git#4dcdefce65c93f7ebb9abb469c6301f07b516430"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1419,8 +1419,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.58"
-source = "git+https://github.com/rhiaqey/producers.git#1cbb808d7548cbe7a6da0a15c99248f87ffcc4f3"
+version = "0.1.59"
+source = "git+https://github.com/rhiaqey/producers.git#f0d629d9cd9117deb1ea9d317d5f2ced96b315e5"
 dependencies = [
  "anyhow",
  "axum",
@@ -1443,7 +1443,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-sdk-rs"
 version = "0.1.1"
-source = "git+https://github.com/rhiaqey/sdk-rs.git#c8b25e49ff64ca58fc4159eb72d1081cedd46f35"
+source = "git+https://github.com/rhiaqey/sdk-rs.git#2cb402b1b5ee1b8e992612820b1018913a39c188"
 dependencies = [
  "serde",
  "serde_bytes",
@@ -1501,9 +1501,9 @@ checksum = "d626bb9dae77e28219937af045c257c28bfd3f69333c512553507f5f9798cb76"
 
 [[package]]
 name = "rustis"
-version = "0.12.11"
+version = "0.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "902d58631a604f1e6c360d6e39560aa8364c2ea82119119863e745087ef216bd"
+checksum = "5b0d03b19bc05556a010b5607944207d8bb7a3c0f9dd4ec36933896c8c706cc7"
 dependencies = [
  "atoi",
  "bytes",
@@ -1518,7 +1518,7 @@ dependencies = [
  "rand",
  "serde",
  "smallvec",
- "socket2 0.4.10",
+ "socket2",
  "tokio",
  "tokio-util",
  "url",
@@ -1759,16 +1759,6 @@ dependencies = [
 
 [[package]]
 name = "socket2"
-version = "0.4.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9f7916fc008ca5542385b89a3d3ce689953c143e9304a9bf8beec1de48994c0d"
-dependencies = [
- "libc",
- "winapi",
-]
-
-[[package]]
-name = "socket2"
 version = "0.5.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "05ffd9c0a93b7543e062e759284fcf5f5e3b098501104bfbdde4d404db792871"
@@ -1935,7 +1925,7 @@ dependencies = [
  "parking_lot",
  "pin-project-lite",
  "signal-hook-registry",
- "socket2 0.5.6",
+ "socket2",
  "tokio-macros",
  "windows-sys 0.48.0",
 ]
@@ -2185,28 +2175,6 @@ dependencies = [
  "js-sys",
  "wasm-bindgen",
 ]
-
-[[package]]
-name = "winapi"
-version = "0.3.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419"
-dependencies = [
- "winapi-i686-pc-windows-gnu",
- "winapi-x86_64-pc-windows-gnu",
-]
-
-[[package]]
-name = "winapi-i686-pc-windows-gnu"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
-
-[[package]]
-name = "winapi-x86_64-pc-windows-gnu"
-version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 
 [[package]]
 name = "windows-sys"

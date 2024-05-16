@@ -1404,7 +1404,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.6"
+version = "0.1.7"
 dependencies = [
  "anyhow",
  "log",
@@ -1419,8 +1419,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.65"
-source = "git+https://github.com/rhiaqey/producers.git#eecf4efcd34640bf6e51f6dccb1b7aaaa153bbca"
+version = "0.1.67"
+source = "git+https://github.com/rhiaqey/producers.git#18bc19ac38cf7747589fd7ecc6579cd7e3687f3d"
 dependencies = [
  "anyhow",
  "axum",
@@ -1555,9 +1555,9 @@ checksum = "976295e77ce332211c0d24d92c0e83e50f5c5f046d11082cea19f3df13a3562d"
 
 [[package]]
 name = "rustversion"
-version = "1.0.16"
+version = "1.0.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "092474d1a01ea8278f69e6a358998405fae5b8b963ddaeb2b0b04a128bf1dfb0"
+checksum = "955d28af4278de8121b7ebeb796b6a45735dc01436d898801014aced2773a3d6"
 
 [[package]]
 name = "rusty_ulid"
@@ -1777,9 +1777,9 @@ checksum = "81cdd64d312baedb58e21336b31bc043b77e01cc99033ce76ef539f78e965ebc"
 
 [[package]]
 name = "syn"
-version = "2.0.61"
+version = "2.0.63"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c993ed8ccba56ae856363b1845da7266a7cb78e1d146c8a32d54b45a8b831fc9"
+checksum = "bf5be731623ca1a1fb7d8be6f261a3be6d3e2337b8a1f97be944d020c8fcb704"
 dependencies = [
  "proc-macro2",
  "quote",

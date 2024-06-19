@@ -1580,7 +1580,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-producers"
 version = "0.1.78"
-source = "git+https://github.com/rhiaqey/producers.git#7c3a3a5fa2b57432424ba8938910b8112e5f8698"
+source = "git+https://github.com/rhiaqey/producers.git#06f368b493a31b2b1e6b1f4021f6a2edcaf39ed4"
 dependencies = [
  "anyhow",
  "axum",
@@ -1603,7 +1603,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-sdk-rs"
 version = "0.1.1"
-source = "git+https://github.com/rhiaqey/sdk-rs.git#2cb402b1b5ee1b8e992612820b1018913a39c188"
+source = "git+https://github.com/rhiaqey/sdk-rs.git#5ce3f4141738e4c95b175f6901aba6c15ae5529b"
 dependencies = [
  "serde",
  "serde_bytes",

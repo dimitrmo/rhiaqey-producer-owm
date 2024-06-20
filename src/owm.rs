@@ -13,7 +13,7 @@ use std::time::{Duration, SystemTime};
 use tokio::sync::mpsc::{unbounded_channel, UnboundedSender};
 use tokio::sync::Mutex;
 
-#[derive(Default)]
+#[derive(Debug)]
 pub struct OWM {
     sender: Option<UnboundedSender<ProducerMessage>>,
     settings: Arc<Mutex<OWMSettings>>,
@@ -331,6 +331,13 @@ impl OWM {
 }
 
 impl Producer<OWMSettings> for OWM {
+    fn create() -> Result<Self, Box<dyn std::error::Error>> {
+        Ok(Self {
+            sender: None,
+            settings: Default::default(),
+        })
+    }
+
     fn setup(&mut self, settings: Option<OWMSettings>) -> ProducerMessageReceiver {
         info!("setting up {}", Self::kind());
 

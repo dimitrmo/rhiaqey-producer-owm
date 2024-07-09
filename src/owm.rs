@@ -2,7 +2,9 @@ use anyhow::Context;
 use log::{debug, info, trace, warn};
 use reqwest::Response;
 use rhiaqey_sdk_rs::message::MessageValue;
-use rhiaqey_sdk_rs::producer::{Producer, ProducerMessage, ProducerMessageReceiver};
+use rhiaqey_sdk_rs::producer::{
+    Producer, ProducerConfig, ProducerMessage, ProducerMessageReceiver,
+};
 use rhiaqey_sdk_rs::settings::Settings;
 use serde::{Deserialize, Serialize};
 use serde_json::json;
@@ -330,15 +332,21 @@ impl OWM {
     }
 }
 
-impl Producer<OWMSettings> for OWM {
-    fn create() -> Result<Self, Box<dyn std::error::Error>> {
-        Ok(Self {
+impl Default for OWM {
+    fn default() -> Self {
+        Self {
             sender: None,
             settings: Default::default(),
-        })
+        }
     }
+}
 
-    fn setup(&mut self, settings: Option<OWMSettings>) -> ProducerMessageReceiver {
+impl Producer<OWMSettings> for OWM {
+    async fn setup(
+        &mut self,
+        _config: ProducerConfig,
+        settings: Option<OWMSettings>,
+    ) -> ProducerMessageReceiver {
         info!("setting up {}", Self::kind());
 
         self.settings = Arc::new(Mutex::new(settings.unwrap_or(OWMSettings::default())));

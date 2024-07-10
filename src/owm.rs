@@ -462,10 +462,6 @@ impl Producer<OWMSettings> for OWM {
         })
     }
 
-    async fn metrics(&self) -> serde_json::value::Value {
-        json!({})
-    }
-
     fn kind() -> String {
         String::from("owm")
     }

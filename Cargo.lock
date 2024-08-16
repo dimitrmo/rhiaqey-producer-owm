@@ -278,9 +278,9 @@ checksum = "8318a53db07bb3f8dca91a600466bdb3f2eaadeedfdbcf02e1accbad9271ba50"
 
 [[package]]
 name = "cc"
-version = "1.1.11"
+version = "1.1.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5fb8dd288a69fc53a1996d7ecfbf4a20d59065bff137ce7e56bbd620de191189"
+checksum = "68064e60dbf1f17005c2fde4d07c16d8baa506fd7ffed8ccab702d93617975c7"
 dependencies = [
  "shlex",
 ]
@@ -860,9 +860,9 @@ dependencies = [
 
 [[package]]
 name = "libc"
-version = "0.2.155"
+version = "0.2.156"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c"
+checksum = "a5f43f184355eefb8d17fc948dbecf6c13be3c141f20d834ae842193a448c72a"
 
 [[package]]
 name = "libm"
@@ -1418,7 +1418,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.1"
-source = "git+https://github.com/rhiaqey/common.git#ab87b2e84ec4ef5448cfb6cfc64eb2fca4f720bb"
+source = "git+https://github.com/rhiaqey/common.git#991b1e68c79fca2c8ba1e4ca2355356ccf14c4d4"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1442,7 +1442,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.38"
+version = "0.1.39"
 dependencies = [
  "anyhow",
  "log",
@@ -1457,8 +1457,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.116"
-source = "git+https://github.com/rhiaqey/producers.git#7b1870a22173718adcd788430fd1fc179b4ec239"
+version = "0.1.119"
+source = "git+https://github.com/rhiaqey/producers.git#545b0bfd796f7c1baba37c628aa715f98177b4d8"
 dependencies = [
  "anyhow",
  "axum",

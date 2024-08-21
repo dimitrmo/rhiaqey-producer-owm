@@ -1436,7 +1436,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.40"
+version = "0.1.41"
 dependencies = [
  "anyhow",
  "log",

@@ -1387,7 +1387,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.1"
-source = "git+https://github.com/rhiaqey/common.git#991b1e68c79fca2c8ba1e4ca2355356ccf14c4d4"
+source = "git+https://github.com/rhiaqey/common.git#86fe6691c548dda2a267178e62148e69a72a6f71"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1426,8 +1426,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.123"
-source = "git+https://github.com/rhiaqey/producers.git#bbbfca060b5168065a6ce536763b46aadf919832"
+version = "0.1.125"
+source = "git+https://github.com/rhiaqey/producers.git#b3ecbc73f2fbf3dd2366d4355a358ba45fda9e49"
 dependencies = [
  "anyhow",
  "axum",
@@ -1830,9 +1830,9 @@ checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
 
 [[package]]
 name = "syn"
-version = "2.0.75"
+version = "2.0.76"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6af063034fc1935ede7be0122941bafa9bacb949334d090b77ca98b5817c7d9"
+checksum = "578e081a14e0cefc3279b0472138c513f37b41a08d5a3cca9b6e4e8ceb6cd525"
 dependencies = [
  "proc-macro2",
  "quote",

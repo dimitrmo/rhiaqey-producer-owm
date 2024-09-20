@@ -1387,7 +1387,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.1"
-source = "git+https://github.com/rhiaqey/common.git#c83a4a1c5d0188e8b77d188dfcb6bd14d47f43dc"
+source = "git+https://github.com/rhiaqey/common.git#39b324722b718f16c8c8a6a27e05dfba864f57bd"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1426,8 +1426,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.139"
-source = "git+https://github.com/rhiaqey/producers.git#dd75d490b1b547096659724ced0c55719930499c"
+version = "0.1.140"
+source = "git+https://github.com/rhiaqey/producers.git#48458b7800651cfe3d995d117fa60da7c1119f59"
 dependencies = [
  "anyhow",
  "axum",
@@ -1450,7 +1450,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-sdk-rs"
 version = "0.1.1"
-source = "git+https://github.com/rhiaqey/sdk-rs.git#11b782dd2569f46c0e3295b2d982e722a49f0134"
+source = "git+https://github.com/rhiaqey/sdk-rs.git#d127aa6b41621ffa062d89025cd58ba370ea24a4"
 dependencies = [
  "serde",
  "serde_bytes",

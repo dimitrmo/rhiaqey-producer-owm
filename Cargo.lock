@@ -1366,7 +1366,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.1"
-source = "git+https://github.com/rhiaqey/common.git#39b324722b718f16c8c8a6a27e05dfba864f57bd"
+source = "git+https://github.com/rhiaqey/common.git#35e62449b423c5d35e66d8d10c70734bf1fbb69f"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1390,7 +1390,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.60"
+version = "0.1.61"
 dependencies = [
  "anyhow",
  "log",

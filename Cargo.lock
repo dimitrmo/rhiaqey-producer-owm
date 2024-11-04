@@ -272,9 +272,9 @@ checksum = "9ac0150caa2ae65ca5bd83f25c7de183dea78d4d366469f148435e2acfbad0da"
 
 [[package]]
 name = "cc"
-version = "1.1.33"
+version = "1.1.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e3788d6ac30243803df38a3e9991cf37e41210232916d41a8222ae378f912624"
+checksum = "67b9470d453346108f93a59222a9a1a5724db32d0a4727b7ab7ace4b4d822dc9"
 dependencies = [
  "shlex",
 ]
@@ -1366,7 +1366,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.1"
-source = "git+https://github.com/rhiaqey/common.git#35e62449b423c5d35e66d8d10c70734bf1fbb69f"
+source = "git+https://github.com/rhiaqey/common.git#701fcd5e7d05dde5684f764631ab4f8a8af02db7"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1406,7 +1406,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-producers"
 version = "0.1.161"
-source = "git+https://github.com/rhiaqey/producers.git#d0395cabb6e4429d9500aeb0a07517fe504a4d58"
+source = "git+https://github.com/rhiaqey/producers.git#5adcb47c53bf5a60bb0e85ab7f7fe50e20fd4b9e"
 dependencies = [
  "anyhow",
  "axum",
@@ -1429,7 +1429,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-sdk-rs"
 version = "0.1.1"
-source = "git+https://github.com/rhiaqey/sdk-rs.git#d127aa6b41621ffa062d89025cd58ba370ea24a4"
+source = "git+https://github.com/rhiaqey/sdk-rs.git#b83d1400b2104811c4b4cbfe25e7f067e87f2ab0"
 dependencies = [
  "serde",
  "serde_bytes",
@@ -1808,9 +1808,9 @@ checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
 
 [[package]]
 name = "syn"
-version = "2.0.86"
+version = "2.0.87"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e89275301d38033efb81a6e60e3497e734dfcc62571f2854bf4b16690398824c"
+checksum = "25aa4ce346d03a6dcd68dd8b4010bcb74e54e62c90c573f394c46eae99aba32d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1868,18 +1868,18 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "1.0.66"
+version = "1.0.67"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d171f59dbaa811dbbb1aee1e73db92ec2b122911a48e1390dfe327a821ddede"
+checksum = "3b3c6efbfc763e64eb85c11c25320f0737cb7364c4b6336db90aa9ebe27a0bbd"
 dependencies = [
  "thiserror-impl",
 ]
 
 [[package]]
 name = "thiserror-impl"
-version = "1.0.66"
+version = "1.0.67"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b08be0f17bd307950653ce45db00cd31200d82b624b36e181337d9c7d92765b5"
+checksum = "b607164372e89797d78b8e23a6d67d5d1038c1c65efd52e1389ef8b77caba2a6"
 dependencies = [
  "proc-macro2",
  "quote",

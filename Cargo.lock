@@ -272,9 +272,9 @@ checksum = "325918d6fe32f23b19878fe4b34794ae41fc19ddbe53b10571a4874d44ffd39b"
 
 [[package]]
 name = "cc"
-version = "1.2.4"
+version = "1.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9157bbaa6b165880c27a4293a474c91cdcf265cc68cc829bf10be0964a391caf"
+checksum = "c31a0499c1dc64f458ad13872de75c0eb7e3fdb0e67964610c914b034fc5956e"
 dependencies = [
  "shlex",
 ]
@@ -1546,7 +1546,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.87"
+version = "0.1.88"
 dependencies = [
  "anyhow",
  "log",
@@ -1561,8 +1561,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.178"
-source = "git+https://github.com/rhiaqey/producers.git#81525b0535a41d612013b81d0407c041f997ad4b"
+version = "0.1.179"
+source = "git+https://github.com/rhiaqey/producers.git#9992affd22630cbf529481e235415ad53d6d4cfc"
 dependencies = [
  "anyhow",
  "axum",

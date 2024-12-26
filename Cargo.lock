@@ -1376,9 +1376,9 @@ checksum = "106dd99e98437432fed6519dedecfade6a06a73bb7b2a1e019fdd2bee5778d94"
 
 [[package]]
 name = "quote"
-version = "1.0.37"
+version = "1.0.38"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b5b9d34b8991d19d98081b46eacdd8eb58c6f2b201139f7c5f643cc155a633af"
+checksum = "0e4dccaaaf89514f546c693ddc140f729f958c247918a13380cccc6078391acc"
 dependencies = [
  "proc-macro2",
 ]
@@ -1546,7 +1546,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.89"
+version = "0.1.90"
 dependencies = [
  "anyhow",
  "log",
@@ -1562,7 +1562,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-producers"
 version = "0.1.181"
-source = "git+https://github.com/rhiaqey/producers.git#32725ec7d8cfede767c211a65027290a61b8364d"
+source = "git+https://github.com/rhiaqey/producers.git#6ba4259d1ab978db0a50110d4b321f84eb2bbc0b"
 dependencies = [
  "anyhow",
  "axum",

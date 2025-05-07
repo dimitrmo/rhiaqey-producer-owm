@@ -1602,7 +1602,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.1"
-source = "git+https://github.com/rhiaqey/common.git#0cdb9b90c7be96037d00f34f2fe45da7050d7d54"
+source = "git+https://github.com/rhiaqey/common.git#ef48aec54185cdde29f575e6ee9033000973b3bf"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1641,8 +1641,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.226"
-source = "git+https://github.com/rhiaqey/producers.git#f42052c43e90517c97a31d870adaf70b3e292aa8"
+version = "0.1.227"
+source = "git+https://github.com/rhiaqey/producers.git#bc89e83b39665603d78306e5015b35fe02407a71"
 dependencies = [
  "anyhow",
  "axum",
@@ -1665,7 +1665,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-sdk-rs"
 version = "0.1.1"
-source = "git+https://github.com/rhiaqey/sdk-rs.git#0d898ef1334a1dc76313b8fbf64585aa9e617f51"
+source = "git+https://github.com/rhiaqey/sdk-rs.git#3add5e472ab87b31b5d4088c31b6f1aafbdbeb24"
 dependencies = [
  "serde",
  "serde_bytes",
@@ -2195,9 +2195,9 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.44.2"
+version = "1.45.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e6b88822cbe49de4185e3a4cbf8321dd487cf5fe0c5c65695fef6346371e9c48"
+checksum = "2513ca694ef9ede0fb23fe71a4ee4107cb102b9dc1930f6d0fd77aae068ae165"
 dependencies = [
  "backtrace",
  "bytes",

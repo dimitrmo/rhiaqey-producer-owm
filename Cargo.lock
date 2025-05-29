@@ -1611,8 +1611,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.230"
-source = "git+https://github.com/rhiaqey/producers.git#69de916b176c12ac962f4de1c03a0dab2a56bb18"
+version = "0.1.231"
+source = "git+https://github.com/rhiaqey/producers.git#efd2619dd0fed1ac8c27b516c403669b0a285527"
 dependencies = [
  "anyhow",
  "axum",

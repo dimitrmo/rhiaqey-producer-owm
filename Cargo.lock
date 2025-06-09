@@ -1487,9 +1487,9 @@ dependencies = [
 
 [[package]]
 name = "redis"
-version = "0.31.0"
+version = "0.32.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0bc1ea653e0b2e097db3ebb5b7f678be339620b8041f66b30a308c1d45d36a7f"
+checksum = "bd673deb3d184140109c1e27b043c2354cb79399c3ef304c365fc628092ed773"
 dependencies = [
  "bytes",
  "cfg-if",
@@ -1590,15 +1590,12 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-common"
-version = "0.2.2"
-source = "git+https://github.com/rhiaqey/common.git#d97f618a9236a0b3cff66912e6a2de2a8a9b6650"
+version = "0.2.3"
+source = "git+https://github.com/rhiaqey/common.git#4967ee7236f554221a83e5b956348e37238e3432"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
- "axum-core",
- "env_logger",
  "envy",
- "hyper",
  "log",
  "rand 0.8.5",
  "redis",
@@ -1630,8 +1627,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.233"
-source = "git+https://github.com/rhiaqey/producers.git#bbd647e841357af734704d60526e2fb9b7bf1d0b"
+version = "0.1.234"
+source = "git+https://github.com/rhiaqey/producers.git#c32e6d968c501b120543437fed57719d6517ff19"
 dependencies = [
  "anyhow",
  "axum",

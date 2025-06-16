@@ -1212,15 +1212,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d05e27ee213611ffe7d6348b942e8f942b37114c00cc03cec254295a4a17852e"
 
 [[package]]
-name = "openssl-src"
-version = "300.5.0+3.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e8ce546f549326b0e6052b649198487d91320875da901e7bd11a06d1ee3f9c2f"
-dependencies = [
- "cc",
-]
-
-[[package]]
 name = "openssl-sys"
 version = "0.9.109"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1228,7 +1219,6 @@ checksum = "90096e2e47630d78b7d1c20952dc621f957103f8bc2c8359ec81290d75238571"
 dependencies = [
  "cc",
  "libc",
- "openssl-src",
  "pkg-config",
  "vcpkg",
 ]
@@ -1625,24 +1615,18 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.236"
-source = "git+https://github.com/rhiaqey/producers.git#9360e71613e2a79caafc455528d84310103d5484"
+version = "0.1.237"
+source = "git+https://github.com/rhiaqey/producers.git#b9dbc18ebf408c82a4acc0b1d7668104754f952c"
 dependencies = [
- "anyhow",
  "axum",
  "env_logger",
  "futures",
  "hyper",
  "lazy_static",
  "log",
- "openssl",
  "prometheus",
- "redis",
  "rhiaqey-common",
  "rhiaqey-sdk-rs",
- "rustis",
- "serde",
- "serde_json",
  "tokio",
 ]
 

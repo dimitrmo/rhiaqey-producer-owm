@@ -1498,9 +1498,9 @@ dependencies = [
 
 [[package]]
 name = "redis"
-version = "0.32.3"
+version = "0.32.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f0f6a8c53351d89a3869a703459995a0bcadcfa846002707fbc7e5cca235c4a"
+checksum = "e1f66bf4cac9733a23bcdf1e0e01effbaaad208567beba68be8f67e5f4af3ee1"
 dependencies = [
  "bytes",
  "cfg-if",
@@ -1513,7 +1513,7 @@ dependencies = [
  "rand 0.9.1",
  "ryu",
  "sha1_smol",
- "socket2 0.5.10",
+ "socket2 0.6.0",
  "tokio",
  "tokio-util",
  "url",
@@ -1600,7 +1600,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.2.3"
-source = "git+https://github.com/rhiaqey/common.git#7dc1f1a47eb5b624e06bd216760c665dd40a74fd"
+source = "git+https://github.com/rhiaqey/common.git#a8675a4d1b46ee6cf548e1ccc2951d1884c8a57d"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1621,7 +1621,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.136"
+version = "0.1.137"
 dependencies = [
  "anyhow",
  "log",
@@ -1638,7 +1638,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-producers"
 version = "0.1.244"
-source = "git+https://github.com/rhiaqey/producers.git#0ea0b10507b65a40430dccbcd667cd6d934ff12c"
+source = "git+https://github.com/rhiaqey/producers.git#25b83d183a857514b9ea7afff3687450a47d7ef8"
 dependencies = [
  "axum",
  "env_logger",
@@ -1727,9 +1727,9 @@ checksum = "989e6739f80c4ad5b13e0fd7fe89531180375b18520cc8c82080e4dc4035b84f"
 
 [[package]]
 name = "rustis"
-version = "0.15.2"
+version = "0.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "05d94d79e38f4b6d0bafc45802df9d4460217f0fb350d3660aaadf03aa96b81b"
+checksum = "bf1ac5efbacd92e274586a56c0aed953b9144c4a4826e8edbb3c8cbeda26651f"
 dependencies = [
  "atoi",
  "bytes",
@@ -1752,22 +1752,22 @@ dependencies = [
 
 [[package]]
 name = "rustix"
-version = "1.0.7"
+version = "1.0.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c71e83d6afe7ff64890ec6b71d6a69bb8a610ab78ce364b3352876bb4c801266"
+checksum = "11181fbabf243db407ef8df94a6ce0b2f9a733bd8be4ad02b4eda9602296cac8"
 dependencies = [
  "bitflags",
  "errno",
  "libc",
  "linux-raw-sys",
- "windows-sys 0.59.0",
+ "windows-sys 0.60.2",
 ]
 
 [[package]]
 name = "rustls"
-version = "0.23.28"
+version = "0.23.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7160e3e10bf4535308537f3c4e1641468cd0e485175d6163087c0393c7d46643"
+checksum = "2491382039b29b9b11ff08b76ff6c97cf287671dbb74f0be44bda389fffe9bd1"
 dependencies = [
  "once_cell",
  "rustls-pki-types",
@@ -1787,9 +1787,9 @@ dependencies = [
 
 [[package]]
 name = "rustls-webpki"
-version = "0.103.3"
+version = "0.103.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e4a72fe2bcf7a6ac6fd7d0b9e5cb68aeb7d4c0a0271730218b3e92d43b4eb435"
+checksum = "0a17884ae0c1b773f1ccd2bd4a8c72f16da897310a98b0e84bf349ad5ead92fc"
 dependencies = [
  "ring",
  "rustls-pki-types",

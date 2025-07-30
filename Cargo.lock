@@ -1637,8 +1637,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.247"
-source = "git+https://github.com/rhiaqey/producers.git#a86a3f0f0d2c4a29812a0a69178215640835724a"
+version = "0.1.248"
+source = "git+https://github.com/rhiaqey/producers.git#71f86e369a08c91b4dda668d3ae5b367ecae8e5a"
 dependencies = [
  "axum",
  "env_logger",
@@ -2081,7 +2081,7 @@ dependencies = [
  "getrandom 0.3.3",
  "once_cell",
  "rustix",
- "windows-sys 0.59.0",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]

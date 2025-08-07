@@ -643,9 +643,9 @@ checksum = "07e28edb80900c19c28f1072f2e8aeca7fa06b23cd4169cefe1af5aa3260783f"
 
 [[package]]
 name = "h2"
-version = "0.4.11"
+version = "0.4.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17da50a276f1e01e0ba6c029e47b7100754904ee8a278f886546e98575380785"
+checksum = "f3c0b69cfcb4e1b9f1bf2f53f95f766e4661169728ec61cd3fe5a0166f2d1386"
 dependencies = [
  "atomic-waker",
  "bytes",
@@ -1621,7 +1621,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.144"
+version = "0.1.145"
 dependencies = [
  "anyhow",
  "log",
@@ -1637,8 +1637,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.250"
-source = "git+https://github.com/rhiaqey/producers.git#f22772f3fb39248c059464d3681e99206f5e811f"
+version = "0.1.251"
+source = "git+https://github.com/rhiaqey/producers.git#9a39907150d3828315135c9315f881a86111145b"
 dependencies = [
  "axum",
  "env_logger",

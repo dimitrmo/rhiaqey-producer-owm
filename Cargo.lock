@@ -527,7 +527,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "778e2ac28f6c47af28e4907f13ffd1e1ddbd400980a9abd7c8df189bf578a5ad"
 dependencies = [
  "libc",
- "windows-sys 0.60.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -1673,8 +1673,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.263"
-source = "git+https://github.com/rhiaqey/producers.git#e5064bd4ff97c67925a197895982d98f2be4b4bf"
+version = "0.1.264"
+source = "git+https://github.com/rhiaqey/producers.git#40cc7710b59455a72594d243cc07f60a6ff80d4d"
 dependencies = [
  "axum",
  "env_logger",
@@ -1795,7 +1795,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys",
- "windows-sys 0.60.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -2131,7 +2131,7 @@ dependencies = [
  "getrandom 0.3.3",
  "once_cell",
  "rustix",
- "windows-sys 0.60.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]

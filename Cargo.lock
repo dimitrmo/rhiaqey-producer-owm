@@ -1694,8 +1694,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.269"
-source = "git+https://github.com/rhiaqey/producers.git#d3955b0ad2511fc8a7b37963a283d51ee5242830"
+version = "0.1.270"
+source = "git+https://github.com/rhiaqey/producers.git#41ba9824d5a0f0209a45e20071c6aa213532e641"
 dependencies = [
  "axum",
  "env_logger",

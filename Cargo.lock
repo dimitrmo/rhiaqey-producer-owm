@@ -1494,9 +1494,9 @@ checksum = "104a23e4e8b77312a823b6b5613edbac78397e2f34320bc7ac4277013ec4478e"
 
 [[package]]
 name = "redis"
-version = "1.0.0"
+version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "47ba378d39b8053bffbfc2750220f5a24a06189b5129523d5db01618774e0239"
+checksum = "e2dc509b442812959ab125c74be2a930dd9b603038b6da9df9ec013aa23a4e9c"
 dependencies = [
  "arcstr",
  "bytes",
@@ -1635,8 +1635,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.287"
-source = "git+https://github.com/rhiaqey/producers.git#480e8749084f72b472235ef63f4728c03a27132f"
+version = "0.1.288"
+source = "git+https://github.com/rhiaqey/producers.git#1885d0c91f2287c8d85f6ea2f4d84e7374c4fe45"
 dependencies = [
  "axum",
  "env_logger",

@@ -602,7 +602,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
 dependencies = [
  "libc",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -1618,7 +1618,7 @@ dependencies = [
  "once_cell",
  "socket2",
  "tracing",
- "windows-sys 0.60.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -1816,7 +1816,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-common"
 version = "0.3.0"
-source = "git+https://github.com/rhiaqey/common.git#7c65e0e459300608af6019064c0d2f5e274f8528"
+source = "git+https://github.com/rhiaqey/common.git#e101f3c4f66a460b030029c15bf3e26ab2e1d690"
 dependencies = [
  "aes-gcm-siv",
  "anyhow",
@@ -1854,7 +1854,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-producers"
 version = "0.1.293"
-source = "git+https://github.com/rhiaqey/producers.git#a7eb1bcc5e8a0846c415ed77c2f74f6d80bad782"
+source = "git+https://github.com/rhiaqey/producers.git#b71228ff944ea4ea177c9160c4061fb61bfb14fb"
 dependencies = [
  "axum",
  "env_logger",
@@ -1872,7 +1872,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-sdk-rs"
 version = "0.1.2"
-source = "git+https://github.com/rhiaqey/sdk-rs.git#dcf2eb4c55bab90b9e52e87fae9c71d97c2d3046"
+source = "git+https://github.com/rhiaqey/sdk-rs.git#10168e355903339f3c4c6a2aef0b939638c98d01"
 dependencies = [
  "serde",
  "serde_json",
@@ -2017,7 +2017,7 @@ dependencies = [
  "security-framework",
  "security-framework-sys",
  "webpki-root-certs",
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
@@ -2816,7 +2816,7 @@ version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]

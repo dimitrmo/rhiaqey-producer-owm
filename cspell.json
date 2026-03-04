@@ -34,7 +34,8 @@
       "devwasm",
       "anson",
       "eitsupi",
-      "btop"
+      "btop",
+      "verison"
     ],
     "ignoreWords": [],
     "import": []

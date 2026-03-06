@@ -1843,7 +1843,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.194"
+version = "0.1.195"
 dependencies = [
  "anyhow",
  "log",
@@ -1860,7 +1860,7 @@ dependencies = [
 [[package]]
 name = "rhiaqey-producers"
 version = "0.1.299"
-source = "git+https://github.com/rhiaqey/producers.git#98d665178d9d489e632ca248a737ef15c080670f"
+source = "git+https://github.com/rhiaqey/producers.git#d100ba8931b30a8bee82dd9dd25ca4d615ede3d0"
 dependencies = [
  "axum",
  "env_logger",

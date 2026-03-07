@@ -1843,7 +1843,7 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producer-owm"
-version = "0.1.196"
+version = "0.1.197"
 dependencies = [
  "anyhow",
  "log",
@@ -1859,8 +1859,8 @@ dependencies = [
 
 [[package]]
 name = "rhiaqey-producers"
-version = "0.1.301"
-source = "git+https://github.com/rhiaqey/producers.git#234906e05c5294972b6c2a14f564999dc768fb11"
+version = "0.1.302"
+source = "git+https://github.com/rhiaqey/producers.git#129efeeff53978e2f8e867e8cf5ca53185bcb267"
 dependencies = [
  "axum",
  "env_logger",
@@ -2280,12 +2280,12 @@ dependencies = [
 
 [[package]]
 name = "socket2"
-version = "0.6.2"
+version = "0.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "86f4aa3ad99f2088c990dfa82d367e19cb29268ed67c574d10d0a4bfe71f07e0"
+checksum = "3a766e1110788c36f4fa1c2b71b387a7815aa65f88ce0229841826633d93723e"
 dependencies = [
  "libc",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
